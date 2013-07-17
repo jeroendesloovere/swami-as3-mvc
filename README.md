@@ -1,23 +1,24 @@
-# swami-as3-mvc
+# Swami AS 3.0 MVC
 
-Swami is an AS 3.0 MVC which connects to Fork CMS.
+Swami is a Flash-based ActionScript 3.0 Model View Controller which connects to Fork CMS.
 
-## Brainstorming about Swami MVC AS 3.0 - which connects to Fork CMS
+## Ideas
 
 ### 20130319
 
 #### Pages
-contact = new Page();
+
+`contact = new Page();`
 
 
 #### Locale
 
-this.locale = new Locale();
+`this.locale = new Locale();`
 
 
 #### Custom Forms
 
-function loadForm()
+`function loadForm()
 {
 	this.frm = new Form('formName');
 	
@@ -28,21 +29,21 @@ function loadForm()
 function validateForm()
 {
 	this.frm.getField('firstName')->isFilled('BL::err()');
-}
+}`
 
 
 ### 20120822
 
 #### Core functionalities - Controls the MVC structure
 
-be.siesqo.core.Controller	// This class will handle the controllers.
-be.siesqo.core.Database		// This class will handle the database actions.
-be.siesqo.core.Debug 		// This class will handle the debugging.
-be.siesqo.core.Language		// This class will store the language-dependant content for the Backend, it will also store the current language for the user.
-be.siesqo.core.Navigation	// This class will be used to build the navigation
-be.siesqo.core.Model		// In this file we store all generic functions that we will be using in the backend.
-be.siesqo.core.Url 			// This class will handle the incoming URL.
-be.siesqo.core.View 		// This class will handle the views.
+* be.siesqo.core.Controller - This class will handle the controllers.
+* be.siesqo.core.Database - This class will handle the database actions.
+* be.siesqo.core.Debug - This class will handle the debugging.
+* be.siesqo.core.Language - This class will store the language-dependant content for the Backend, it will also store the current language for the user.
+* be.siesqo.core.Navigation - This class will be used to build the navigation
+* be.siesqo.core.Model - In this file we store all generic functions that we will be using in the backend.
+* be.siesqo.core.Url - This class will handle the incoming URL.
+* be.siesqo.core.View - This class will handle the views.
 
 
 #### Loader
