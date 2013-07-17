@@ -18,7 +18,8 @@ Swami is a Flash-based ActionScript 3.0 Model View Controller which connects to 
 
 #### Custom Forms
 
-`function loadForm()
+`
+function loadForm()
 {
 	this.frm = new Form('formName');
 	
@@ -29,7 +30,8 @@ Swami is a Flash-based ActionScript 3.0 Model View Controller which connects to 
 function validateForm()
 {
 	this.frm.getField('firstName')->isFilled('BL::err()');
-}`
+}
+`
 
 
 ### 20120822
