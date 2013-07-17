@@ -18,22 +18,20 @@ Swami is a Flash-based ActionScript 3.0 Model View Controller which connects to 
 
 #### Custom Forms
 
-`
-	function loadForm()
-	{
-		this.frm = new Form('formName');
-	
-		this.frm.addText('firstName');
-		this.frm.addTextarea('message');
-	}
-`
+```
+function loadForm()
+{
+	this.frm = new Form('formName');
 
-`
-	function validateForm()
-	{
-		this.frm.getField('firstName')->isFilled('BL::err()');
-	}
-`
+	this.frm.addText('firstName');
+	this.frm.addTextarea('message');
+}
+
+function validateForm()
+{
+	this.frm.getField('firstName')->isFilled('BL::err()');
+}
+```
 
 
 ### 20120822
