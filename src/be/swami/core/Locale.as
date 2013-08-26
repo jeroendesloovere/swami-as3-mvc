@@ -155,7 +155,7 @@ package be.swami.core
 		 *
 		 * @param string language
 		 */
-		public function setCurrentLanguage(language:String = null)
+		public function setCurrentLanguage(language:String)
 		{
 			this.currentLanguage = language;
 		}
@@ -165,7 +165,7 @@ package be.swami.core
 		 *
 		 * @param string language
 		 */
-		public function setDefaultLanguage(language:String = null)
+		public function setDefaultLanguage(language:String)
 		{
 			this.defaultLanguage = language;
 		}
