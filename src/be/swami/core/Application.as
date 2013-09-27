@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Application package
  *
  * @author Jeroen Desloovere <info@jeroendesloovere.be>
@@ -38,6 +38,15 @@ package be.swami.core
 		 * Execute
 		 */
 		public function execute()
+		{
+			// check if we have external parameters inserted using javascript?
+			checkForExternalParameters();
+		}
+
+		/**
+ 		 * Check for external parameters
+		 */
+		private function checkForExternalParameters()
 		{
 			// define external variables
 			var external:Object = this.application.root.loaderInfo.parameters;
