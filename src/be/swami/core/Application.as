@@ -44,7 +44,7 @@ package be.swami.core
 		}
 
 		/**
- 		 * Check for external parameters
+ 		 * Check for external parameters pushed using javascript
 		 */
 		private function checkForExternalParameters()
 		{
