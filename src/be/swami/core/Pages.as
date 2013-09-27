@@ -32,7 +32,7 @@ package be.swami.core
 		/**
 		 * Get page
 		 *
-		 * @param int $pageId
+		 * @param int pageId
 		 */
 		public function get(pageId:int)
 		{
@@ -42,7 +42,7 @@ package be.swami.core
 		/**
 		 * Get title for page
 		 *
-		 * @param int $pageId[optional]
+		 * @param int pageId[optional]
 		 * @return string
 		 */
 		public function getTitle(pageId:int = 0)
@@ -57,7 +57,7 @@ package be.swami.core
 		/**
 		 * Get description for page
 		 *
-		 * @param int $pageId[optional]
+		 * @param int pageId[optional]
 		 * @return string
 		 */
 		public function getDescription(pageId:int = 0)
