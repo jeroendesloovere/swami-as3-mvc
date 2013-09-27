@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Pages package
  *
  * @author Jeroen Desloovere <info@jeroendesloovere.be>
@@ -42,7 +42,7 @@ package be.swami.core
 		/**
 		 * Get title for page
 		 *
-		 * @param int[optional] $pageId
+		 * @param int $pageId[optional]
 		 * @return string
 		 */
 		public function getTitle(pageId:int = 0)
@@ -57,7 +57,7 @@ package be.swami.core
 		/**
 		 * Get description for page
 		 *
-		 * @param int[optional] $pageId
+		 * @param int $pageId[optional]
 		 * @return string
 		 */
 		public function getDescription(pageId:int = 0)
